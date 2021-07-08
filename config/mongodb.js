@@ -5,7 +5,7 @@ const dbhost = process.env.DBHOST || "localhost";
 const dbport = process.env.DBPORT || "27017";
 const dbname = process.env.DBNAME || "AppEllasDB";
 
-const dburi = process.env.DBURI || `mongodb://${dbhost}:${dbport}/${dbname}`;
+const dburi = process.env.DBURI || `mongodb+srv://Jnasser3:gaseosa1234@clusterm.8jklt.mongodb.net/AppEllasDB?retryWrites=true&w=majority`;
 
 //Configurando a la base de datos de mongodb
 const connect = async () => {
